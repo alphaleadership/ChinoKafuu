@@ -15,7 +15,7 @@ require('./src/tools/Exception')
 require('./src/tools/StringBuilder')
 class StateApplication {
   constructor(state) {
-    this.state = state ?? {}
+    this.state = state || {}
 
   }
 
